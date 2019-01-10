@@ -1,0 +1,29 @@
+
+/* .footer class*/
+
+.footer {
+    margin: 0px ,8px;
+    padding: 0px , 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color:rgb(85, 87, 90);
+    color: white;
+    text-align: center;
+ }
+
+
+
+/* header tag*/
+p{
+    margin: 5px;
+    padding: 5px;
+    font-size: 35px;
+    color: rgb(100, 241, 35);
+    
+    font-weight: 900;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}

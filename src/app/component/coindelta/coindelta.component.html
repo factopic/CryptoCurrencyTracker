@@ -1,0 +1,69 @@
+<h2> COINDELTA</h2>
+
+<div style="overflow-y:auto;  max-height: 500px !important; border: 1px solid black;">
+<table class="table-wrapper" >
+ 
+  <tr class="heading">
+      <th>MarketName</th>
+      <th>Last Price</th>
+      <th>Ask</th>
+      <th>Bid</th>   
+  </tr>
+
+ 
+  <tr *ngFor="let bird of varCoindelta">
+    <td>{{bird.MarketName}} </td>
+    <td>{{bird.Last}}</td>   
+    <td>{{bird.Ask}}</td>
+    <td>{{bird.Bid}}</td>
+  </tr>
+  
+</table>
+</div>
+
+<!--
+
+
+
+<div style="overflow-y:auto;  max-height: 500px !important;">
+  
+<table mat-table [dataSource]="varCoindelta" class="  table-wrapper ">
+
+  <!-- - Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+
+ <!-- Weight Column ->
+ <ng-container matColumnDef="MarketName">
+  <th mat-header-cell *matHeaderCellDef> MarketName </th>
+  <td mat-cell *matCellDef="let element"> {{element.MarketName}} </td>
+</ng-container>
+
+  <!-- Position Column ->
+  <ng-container matColumnDef="Ask">
+    <th mat-header-cell *matHeaderCellDef> Ask. </th>
+    <td mat-cell *matCellDef="let element"> {{element.Ask}} </td>
+  </ng-container>
+
+  <!-- Name Column ->
+  <ng-container matColumnDef="Bid">
+    <th mat-header-cell *matHeaderCellDef> Bid </th>
+    <td mat-cell *matCellDef="let element"> {{element.Bid}} </td>
+  </ng-container>
+
+ 
+
+  <!-- Symbol Column ->
+  <ng-container matColumnDef="Last">
+    <th mat-header-cell *matHeaderCellDef> Last </th>
+    <td mat-cell *matCellDef="let element"> {{element.Last}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>
+</div>
+
+
+//-->

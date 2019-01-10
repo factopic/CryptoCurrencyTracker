@@ -1,0 +1,22 @@
+<h2> BITBNS</h2>
+
+<div style="overflow-y:auto;  max-height: 500px !important; border: 1px solid black;">
+<table class="table-wrapper" >
+ 
+  <tr class="heading">
+      <th>Coin</th>
+      <th>Last Price</th>
+      <th>Ask</th>
+      <th>Bid</th>   
+  </tr>
+
+ 
+  <tr *ngFor="let bird of varCoindelta">
+    <td>{{bird.Coin}} </td>
+    <td>{{bird.last_traded_price}}</td>
+    <td>{{bird.highest_buy_bid}}</td>   
+    <td>{{bird.lowest_sell_bid}}</td>  
+  </tr>
+  
+</table>
+</div>
