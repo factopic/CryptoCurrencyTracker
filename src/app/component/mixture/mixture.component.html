@@ -1,0 +1,71 @@
+<h2>KOINEX MIX</h2>
+
+
+<div style="  overflow-y:scroll;  max-height: 750px !important; border: 1px solid black;">
+  <table class="table-wrapper" >
+    <!-- ADD HEADERS -->
+    <thead class="heading">
+      <tr> <th><strong>Coins</strong> </th> </tr>
+      <tr> <th><strong>Koinex</strong></th> </tr>
+      <tr> <th><strong>Coindelta</strong></th></tr>
+    </thead>
+    <tr>
+          <th>BTC-INR</th>
+          <th>ETH-INR </th>
+          <th>LTC-INR</th>
+          <th>XRP-INR</th>
+          <th>BCHABC-INR</th>
+          <th>BCHSV-INR</th>
+          <th>OMG-INR</th>
+          <th>NEO-INR</th>
+          <th>GAS-INR</th>
+          <th>TRX-INR</th>
+          <th>REQ-INR</th>
+          <th>ZRX-INR</th>
+          <th>GNT-INR</th>
+          <th>BAT-INR</th>
+          <th>AE-INR</th>
+          <th>XLM-INR</th>
+          
+    </tr>
+  
+    <!-- BIND ARRAY TO TABLE -->
+    <tr>
+      <td id="myId">{{varKoinex?.prices.inr.BTC}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.ETH}}</td>   
+      <td id="myId">{{varKoinex?.prices.inr.LTC}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.XRP}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.BCHABC}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.BCHSV}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.OMG}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.NEO}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.GAS}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.TRX}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.REQ}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.ZRX}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.GNT}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.BAT}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.AE}}</td>
+      <td id="myId">{{varKoinex?.prices.inr.XLM}}</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+      <td id="myId">---</td>
+
+
+    </tr>
+<!--  *ngFor="let bird of varCoindelta"  -->
+
+    <tr >     
+      <td>{{bird[1].Last}}</td>   
+    </tr>
+
+  </table>
+  </div>

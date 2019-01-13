@@ -12,6 +12,7 @@ import { MaterialModule } from './material.module';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { BitbnsComponent } from './component/bitbns/bitbns.component';
+import { MixtureComponent } from './component/mixture/mixture.component';
 
 
 //import { ServiceWorkerModule } from '@angular/service-worker';
@@ -25,7 +26,8 @@ import { BitbnsComponent } from './component/bitbns/bitbns.component';
     ZebpayComponent,
     HeaderComponent,
     FooterComponent,
-    BitbnsComponent 
+    BitbnsComponent,
+    MixtureComponent 
   ],
   imports: [
     BrowserModule,
