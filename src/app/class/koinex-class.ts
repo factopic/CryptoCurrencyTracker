@@ -6,4 +6,5 @@ export class KoinexClass
 {
     prices: KoinexPrice;
 
+    
 }
