@@ -1,12 +1,14 @@
-.nav-bar{
-  
-    background-color:rgb(85, 87, 90);
-    width: 100%;
-    height: 90px;
-    margin: 0 , 0 , 10 ,0px;
-    
-  }
 
+  .nav-bar {
+    margin: 0px ,10px;
+    padding: 0px , 5px;
+   
+    width: 1900px;
+    height: 120px;
+    background-color:rgb(85, 87, 90);
+    color: white;
+    text-align: center;
+ }
 
 /* header tag*/
 header{
@@ -14,7 +16,7 @@ header{
     font-size: 35px;
     color: rgb(100, 241, 35);
     
-    font-weight: 900;
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    font-family:  Georgia, serif;
     text-align: center;
 }

@@ -1,32 +1,26 @@
+
+
 .table-wrapper{
-   
-    width: 590px;
-    overflow-x: hidden  ;        
-    
+   width: 1200px;
 }
 
 
-tr { display: block; float: left; }
+table, th , td{
+    margin: 10px;
+    padding: 15px;
 
-
-table th, td{
-
-
-    margin: 18px;
-    padding: 0px;
-    width: 150px;
-
-    text-align : center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    display: block;
-    
     border: 1px solid black;
     border-collapse:collapse;
-   
-   
-}
+    font-size: 21px;
+    text-align : center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-weight: normal;
+  }
+
+
+
+
 
 td:hover {
     background-color: #f5f5f5;
@@ -34,10 +28,10 @@ td:hover {
 
 
 
-
 .heading{
-    background-color: darkcyan;
   
+    background-color: darkcyan;
+    color: whitesmoke;
 } 
 
 
@@ -59,8 +53,6 @@ td:hover {
 	}
 
 
-
-
 @media only screen and (device-width:768px)		/* default iPad screens */
 	{
       
@@ -71,12 +63,7 @@ td:hover {
     }
     
     
-    
 
-    
-    
-
-    
     
     @media (min-width:961px) 			/* tablet, landscape iPad, lo-res laptops ands desktops */
         {
@@ -89,10 +76,7 @@ td:hover {
     
     
     
-    
-    
-    
-    
+  
     
         
    @media only screen and (min-width: 1140px)     /*  ipad pro 	*/
