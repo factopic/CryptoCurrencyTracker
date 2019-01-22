@@ -1,0 +1,57 @@
+{
+  "configVersion": 1,
+  "index": "/CryptoCurrencyTracker/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/CryptoCurrencyTracker/favicon.ico",
+        "/CryptoCurrencyTracker/index.html",
+        "/CryptoCurrencyTracker/main.f3fb01de5f38c72fc949.js",
+        "/CryptoCurrencyTracker/polyfills.2f4a59095805af02bd79.js",
+        "/CryptoCurrencyTracker/runtime.a66f828dca56eeb90e02.js",
+        "/CryptoCurrencyTracker/styles.7710702ec367bc8046fa.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/CryptoCurrencyTracker/assets/coindelta.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/CryptoCurrencyTracker/assets/coindelta.json": "8eba2bf637055494b8100808b9d52bce7add230d",
+    "/CryptoCurrencyTracker/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/CryptoCurrencyTracker/index.html": "4bf45143bde69710437f35c92f0ff73528a2d7ea",
+    "/CryptoCurrencyTracker/main.f3fb01de5f38c72fc949.js": "06b6b2c99328bcacf1ec4c5086565a9d3fd4bb9e",
+    "/CryptoCurrencyTracker/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "/CryptoCurrencyTracker/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/CryptoCurrencyTracker/styles.7710702ec367bc8046fa.css": "103143f1c47e14983ef03295b7d8505bd30e8720"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
