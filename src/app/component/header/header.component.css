@@ -4,19 +4,18 @@
     padding: 0px , 5px;
    
     width: 1900px;
-    height: 120px;
-    background-color:rgb(85, 87, 90);
-    color: white;
+    height: 80px;
+    background-color: rgb(240, 240, 240);
     text-align: center;
  }
 
 /* header tag*/
 header{
-   
-    font-size: 35px;
-    color: rgb(100, 241, 35);
+    margin: 0 ,10px ,10px, 0; 
+    padding: 10px;
+    font-size: 30px;
+    color: grey;
     
     font-weight: 650;
-    font-family:  Georgia, serif;
-    text-align: center;
+    font-family:  "Dancing Script";
 }

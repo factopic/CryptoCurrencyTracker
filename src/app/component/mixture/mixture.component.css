@@ -1,5 +1,12 @@
 
 
+
+h2{
+    margin: 10px;
+    font-family: 'Fira Sans Condensed';
+    color: lightgrey;
+}
+
 .table-wrapper{
    width: 1200px;
 }
@@ -13,9 +20,9 @@ table, th , td{
     border-collapse:collapse;
     font-size: 21px;
     text-align : center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-family: 'Fira Sans Condensed';
     font-weight: normal;
+    color: lightgrey;
   }
 
 
