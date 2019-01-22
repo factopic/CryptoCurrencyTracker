@@ -2,9 +2,9 @@
 /* .footer class*/
 
 .footer {
-    margin: 0px ,8px;
+    margin: 0px ,10px;
     padding: 0px , 5px;
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
@@ -24,6 +24,6 @@ p{
     color: rgb(100, 241, 35);
     
     font-weight: 900;
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  Georgia, serif;
     text-align: center;
 }
