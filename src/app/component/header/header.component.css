@@ -1,12 +1,13 @@
 
   .nav-bar {
     margin: 0px ,10px;
-    padding: 0px , 5px;
+    padding: 10px , 5px;
    
     width: 1900px;
     height: 80px;
-    background-color: rgb(240, 240, 240);
+    background-color:  rgb(240, 240, 240);  
     text-align: center;
+    
  }
 
 /* header tag*/
