@@ -1,24 +1,31 @@
 <h2> COINDELTA</h2>
 
-<div style="overflow-y:scroll;  max-height: 500px !important; ">
-<table class="table-wrapper" >
- 
-  <tr class="heading">
-      <th>MarketName</th>
-      <th>Last Price</th>
-      <th>Ask</th>
-      <th>Bid</th>   
-  </tr>
+<div class="container">
+<div class="md-col-6">
 
- 
-  <tr *ngFor="let bird of varCoindelta">
-    <td>{{bird.MarketName}} </td>
-    <td>{{bird.Last}}</td>   
-    <td>{{bird.Ask}}</td>
-    <td>{{bird.Bid}}</td>
-  </tr>
-  
-</table>
+  <div style="overflow-y:scroll;  max-height: 500px !important; ">
+    <table class="table-wrapper" >
+     
+      <tr class="heading">
+          <th>MarketName</th>
+          <th>Last Price</th>
+          <th>Ask</th>
+          <th>Bid</th>   
+      </tr>
+    
+     
+      <tr *ngFor="let bird of varCoindelta">
+        <td>{{bird.MarketName}} </td>
+        <td>{{bird.Last}}</td>   
+        <td>{{bird.Ask}}</td>
+        <td>{{bird.Bid}}</td>
+      </tr>
+      
+    </table>
+    </div>
+    
+
+</div>
 </div>
 
 <!--
