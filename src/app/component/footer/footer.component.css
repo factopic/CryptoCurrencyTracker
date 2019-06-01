@@ -27,3 +27,8 @@ p{
     font-family:  Georgia, serif;
     text-align: center;
 }
+
+ul{
+margin :5px; 
+padding: 5px;
+   }
