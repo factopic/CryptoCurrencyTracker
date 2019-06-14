@@ -1,4 +1,4 @@
-export class KoinexETH {
+export class KoinexLTC {
     highest_bid : number;
     lowest_ask  : number;
     last_traded_price  : number;

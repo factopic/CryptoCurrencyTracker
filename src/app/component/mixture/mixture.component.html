@@ -2,9 +2,10 @@
 
 <div   class="table-wrapper" >
 <div class="row"> 
-        <div class="col-lg-12 col-sm-10" >
+        <div class="col-lg-12 col-sm-12" >
         
                 <table>
+                        <caption>Koinex</caption>
                 
                     <tr class="heading">
                       <th> Coin </th>
@@ -15,235 +16,81 @@
                       <th> Vol(24hr) </th>
                       
                     </tr>
-                   
-                    <tr>
+                   <!-- Green :179F10  Red : B95B65 -->
+                    <tr >
                         
-                        <th>ETH (Rs)</th>
-                        <td>{{ varKoinex?.stats.inr.ETH.last_traded_price  }}</td>
-                        <td>{{ varKoinex?.stats.inr.ETH.highest_bid }}</td>
-                        <td>{{ varKoinex?.stats.inr.ETH.lowest_ask }}</td>
-                        <td>{{ varKoinex?.stats.inr.ETH.per_change | number : '1.1-2'1.0-0'' }}</td>
-                        <td>{{ varKoinex?.stats.inr.ETH.vol_24hrs }}</td>
-                        
-                    </tr>
-                 
-                    
-                <!--     
-                    <tr>
-                        <th>ETH-INR </th>
-                        <td id="myId">{{varKoinex?.prices.inr.ETH}}</td>
-                        <td>{{ varCoindelta[1].Last }}</td>
-                    </tr>
-                  
-                  
-                    <tr>
-                        <th>LTC-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.LTC}}</td>
-                        <td>{{ varCoindelta[2].Last }}</td>
-                    </tr>
-                        
-                  
-                    <tr>
-                        <th>XRP-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.XRP}}</td>
-                        <td>{{ varCoindelta[5].Last }}</td>
-                    </tr>
-                        
-                        
-                    <tr>
-                        <th>BCHABC-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.BCHABC}}</td>
-                        <td>{{ varCoindelta[32].Last }}</td>
-                    </tr>
-                        
-                    <tr>
-                        <th>BCHSV-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.BCHSV}}</td>
-                        <td>{{ varCoindelta[33].Last }}</td>
-                    </tr>
-                        
-                    <tr>
-                        <th>OMG-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.OMG}}</td>
-                        <td>{{ varCoindelta[3].Last }}</td>
-                    </tr>
-                  
-                    <tr>
-                        <th>NEO-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.NEO}}</td>
-                        <td>{{ varCoindelta[10].Last }}</td>
-                    </tr>
-                        
-                        
-                    <tr>
-                        <th>GAS-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.GAS}}</td>
-                        <td>{{ varCoindelta[11].Last }}</td>
-                    </tr>
-                  
-                    <tr>
-                        <th>TRX-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.TRX}}</td>
-                        <td>{{ varCoindelta[12].Last }}</td>
-                    </tr>
-                  
-                  
-                    <tr>
-                        <th>REQ-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.REQ}}</td>
-                        <td> --- </td>
-                    </tr>
-                  
-                  
-                    <tr>
-                        <th>ZRX-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.ZRX}}</td>
-                        <td>{{ varCoindelta[7].Last }}</td>
-                    </tr>
-                  
-                    <tr>
-                        <th>GNT-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.GNT}}</td>
-                        <td>{{ varCoindelta[13].Last }}</td>
-                    </tr>  
-                        
-                    <tr>
-                        <th>BAT-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.BAT}}</td>
-                        <td>{{ varCoindelta[14].Last }}</td>
-                    </tr>
-                        
-                    <tr>
-                        <th>AE-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.AE}}</td>
-                        <td>{{ varCoindelta[25].Last }}</td>
-                    </tr>
-                          
-                    <tr>
-                        <th>XLM-INR</th>
-                        <td id="myId">{{varKoinex?.prices.inr.XLM}}</td>
-                        <td>{{ varCoindelta[34].Last }}</td>
-                    </tr>
-                        
-                    <tr>
-                        <th>QTUM-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[4].Last }}</td>
-                    </tr>    
-                        
-                        
-                    <tr>
-                        <th>ZIL-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[6].Last }}</td>
-                    </tr>       
-                  
-                    
-                    <tr>
-                        <th>KNC-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[8].Last }}</td>
-                    </tr> 
-                  
-                    <tr>
-                        <th>EOS-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[9].Last }}</td>
-                    </tr> 
-                  
-                  
-                    <tr>
-                        <th>CVC-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[15].Last }}</td>
-                    </tr> 
-                  
-                    <tr>
-                        <th>ENG-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[16].Last }}</td>
-                    </tr> 
-                  
-                  
-                    <tr>
-                        <th>MA----INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[17].Last }}</td>
-                    </tr> 
-                  
-                  
-                    <tr>
-                        <th>SPANK-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[18].Last }}</td>
-                    </tr> 
-                  
-                  
-                    <tr>
-                        <th>ICX-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[19].Last }}</td>
-                    </tr> 
-                  
-                    <tr>
-                        <th>CND-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[20].Last }}</td>
-                    </tr> 
-                  
-                    <tr>
-                        <th>AION-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[21].Last }}</td>
-                    </tr> 
-                  
-                  
-                    <tr>
-                        <th>DAI-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[22].Last }}</td>
-                    </tr> 
-                  
-                    <tr>
-                        <th>QKC-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[23].Last }}</td>
-                    </tr> 
-                  
-                  
-                    <tr>
-                        <th>KRM-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[24].Last }}</td>
-                    </tr> 
-                  
-                  
-                    <tr>
-                        <th>TEN-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[25].Last }}</td>
-                    </tr> 
-                  
-                    <tr>
-                        <th>SPC-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[31].Last }}</td>
-                    </tr> 
-                  
-                    <tr>
-                        <th>PAX-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[35].Last }}</td>
-                    </tr> 
-                  
-                    
-                    <tr>
-                        <th>USDT-INR</th>
-                        <td id="myId"> --- </td>
-                        <td>{{ varCoindelta[36].Last }}</td>
-                    </tr> 
+                            <th>{{varKoinex?.stats.inr.ETH.currency_short_form}} (Rs)</th>
+                            <td>{{ varKoinex?.stats.inr.ETH.last_traded_price  }}</td>
+                            <td>{{ varKoinex?.stats.inr.ETH.highest_bid }}</td>
+                            <td>{{ varKoinex?.stats.inr.ETH.lowest_ask }}</td>
+                            <td [ngStyle]="{'background-color': varKoinex?.stats.inr.ETH.per_change > 0 ? '#179F10':'#B95B65'}">
+                                {{ varKoinex?.stats.inr.ETH.per_change | number : '1.1-2' }}
+                                
+                            </td>   <!--1digit before and 1 to 2 digit after-->
+                            <td>{{ varKoinex?.stats.inr.ETH.vol_24hrs }}</td>
 
-                    -->
+                        </tr>
+                          
+                        <tr >
+                        
+                                <th>{{varKoinex?.stats.inr.BTC.currency_short_form}} (Rs)</th>
+                                <td>{{ varKoinex?.stats.inr.BTC.last_traded_price  }}</td>
+                                <td>{{ varKoinex?.stats.inr.BTC.highest_bid }}</td>
+                                <td>{{ varKoinex?.stats.inr.BTC.lowest_ask }}</td>
+                                <td [ngStyle]="{'background-color': varKoinex?.stats.inr.BTC.per_change > 0 ? '#179F10':'#B95B65'}">
+                                    {{ varKoinex?.stats.inr.BTC.per_change | number : '1.1-2' }}
+                                    
+                                </td>   <!--1digit before and 1 to 2 digit after-->
+                                <td>{{ varKoinex?.stats.inr.BTC.vol_24hrs }}</td>
+                                
+                        </tr>
+
+                        <tr >
+                        
+                                <th>{{varKoinex?.stats.inr.LTC.currency_short_form}} (Rs)</th>
+                                <td>{{ varKoinex?.stats.inr.LTC.last_traded_price  }}</td>
+                                <td>{{ varKoinex?.stats.inr.LTC.highest_bid }}</td>
+                                <td>{{ varKoinex?.stats.inr.LTC.lowest_ask }}</td>
+                                <td [ngStyle]="{'background-color': varKoinex?.stats.inr.LTC.per_change > 0 ? '#179F10':'#B95B65'}">
+                                    {{ varKoinex?.stats.inr.LTC.per_change | number : '1.1-2' }}
+                                    
+                                </td>   <!--1digit before and 1 to 2 digit after-->
+                                <td>{{ varKoinex?.stats.inr.LTC.vol_24hrs }}</td>
+                                
+                            </tr>
+
+
+
+                            <tr >
+                        
+                                    <th>{{varKoinex?.stats.inr.XRP.currency_short_form}} (Rs)</th>
+                                    <td>{{ varKoinex?.stats.inr.XRP.last_traded_price  }}</td>
+                                    <td>{{ varKoinex?.stats.inr.XRP.highest_bid }}</td>
+                                    <td>{{ varKoinex?.stats.inr.XRP.lowest_ask }}</td>
+                                    <td [ngStyle]="{'background-color': varKoinex?.stats.inr.XRP.per_change > 0 ? '#179F10':'#B95B65'}">
+                                        {{ varKoinex?.stats.inr.XRP.per_change | number : '1.1-2' }}
+                                        
+                                    </td>   <!--1digit before and 1 to 2 digit after-->
+                                    <td>{{ varKoinex?.stats.inr.XRP.vol_24hrs }}</td>
+                                    
+                                </tr>
+
+
+                                <!-- Trx -->
+                                <tr >
+                        
+                                        <th>{{varKoinex?.stats.inr.TRX.currency_short_form}} (Rs)</th>
+                                        <td>{{ varKoinex?.stats.inr.TRX.last_traded_price  }}</td>
+                                        <td>{{ varKoinex?.stats.inr.TRX.highest_bid }}</td>
+                                        <td>{{ varKoinex?.stats.inr.TRX.lowest_ask }}</td>
+                                        <td [ngStyle]="{'background-color': varKoinex?.stats.inr.TRX.per_change > 0 ? '#179F10':'#B95B65'}">
+                                            {{ varKoinex?.stats.inr.TRX.per_change | number : '1.1-2' }}
+                                            
+                                        </td>   <!--1digit before and 1 to 2 digit after-->
+                                        <td>{{ varKoinex?.stats.inr.TRX.vol_24hrs }}</td>
+                                        
+                                    </tr>
+             
                   
                   </table>
                   

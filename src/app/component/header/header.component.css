@@ -1,10 +1,10 @@
 
-  .nav-bar {
+  .container-fluid{
     margin: 0px ,10px;
     padding: 10px , 5px;
    
     width: 100%;
-    height: 100px;
+    min-height: 75px;
     background-color:  rgb(240, 240, 240);  
     text-align: center;
     
@@ -14,9 +14,72 @@
 header{
     margin: 0 ,10px ,10px, 0; 
     padding: 10px;
-    font-size: 30px;
-    color: grey;
     
+    color: grey;
+    font-size: 30px;
     font-weight: 650;
     font-family:  "Dancing Script";
+    text-align: center;
 }
+
+
+
+
+@media only screen and (max-device-width: 480px)		/* styles for mobile browsers smaller than 480px; (iPhone) */
+  {
+  
+    .nav-bar  {
+        width: 100%;
+        min-height: 120px;
+        font-size: 35px;
+    }
+
+    
+
+	}
+
+
+
+
+@media only screen and (device-width:768px)		/* default iPad screens */
+	{
+      
+    .header {
+            width: 100%
+        }
+    
+    }
+    
+    
+    
+
+    
+    
+
+    
+    
+    @media (min-width:961px) 			/* tablet, landscape iPad, lo-res laptops ands desktops */
+        {
+          .header {
+                width: 100%
+            }
+        
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+        
+   @media only screen and (min-width: 1140px)     /*  ipad pro 	*/
+    {
+      .header {
+            width: 100%
+        }
+    
+
+    }
