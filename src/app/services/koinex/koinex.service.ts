@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { KoinexClass } from '../../class/koinex-class';
+import { KoinexClass } from '../../classes/koinex/koinex-class';
 
 @Injectable({
   providedIn: 'root'

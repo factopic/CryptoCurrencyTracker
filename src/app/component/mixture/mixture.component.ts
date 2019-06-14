@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { KoinexService } from '../../services/koinex/koinex.service';
-import { KoinexClass } from '../../class/koinex-class';
+import { KoinexClass } from '../../classes/koinex/koinex-class';
 import { CoindeltaClass } from '../../class/coindelta-class';
 import { CoindeltaService } from '../../services/coindelta/coindelta.service';
 
@@ -15,7 +15,8 @@ export class MixtureComponent implements OnInit {
 
   constructor(private koinexService: KoinexService , private coindeltaService: CoindeltaService) { }
  
-  
+ 
+
   varCoindelta:CoindeltaClass;
   varKoinex :KoinexClass;
   id;
@@ -41,7 +42,7 @@ export class MixtureComponent implements OnInit {
      this.id= setInterval(a=>{
         this.showKoinex();
         this.showCoindelta();
-      },30000,[]);
+      },90000000,[]);
       
    
 

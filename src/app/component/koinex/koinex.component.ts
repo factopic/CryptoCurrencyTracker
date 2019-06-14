@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { KoinexClass } from '../../class/koinex-class';
+import { KoinexClass } from '../../classes/koinex/koinex-class';
 import { KoinexService } from '../../services/koinex/koinex.service';
 
 
