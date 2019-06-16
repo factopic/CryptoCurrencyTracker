@@ -13,6 +13,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { BitbnsComponent } from './component/bitbns/bitbns.component';
 import { MixtureComponent } from './component/mixture/mixture.component';
+import { BitstampComponent } from './component/bitstamp/bitstamp.component';
 
 
 //import { ServiceWorkerModule } from '@angular/service-worker';
@@ -27,7 +28,8 @@ import { MixtureComponent } from './component/mixture/mixture.component';
     HeaderComponent,
     FooterComponent,
     BitbnsComponent,
-    MixtureComponent 
+    MixtureComponent,
+    BitstampComponent 
   ],
   imports: [
     BrowserModule,
