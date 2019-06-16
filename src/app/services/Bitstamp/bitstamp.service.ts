@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class BitstampService {
 
   constructor(private http: HttpClient) { }
-  bitStampUrl= 'https://koinex.in/api/ticker';
+  bitStampUrl= 'https://www.bitstamp.net/api/v2/ticker/btcusd/';
 
   getBitstamp() : Observable<BitstampBTC>
   {
