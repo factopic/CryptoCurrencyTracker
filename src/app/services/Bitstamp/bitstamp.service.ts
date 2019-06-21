@@ -9,11 +9,33 @@ import { HttpClient } from '@angular/common/http';
 export class BitstampService {
 
   constructor(private http: HttpClient) { }
-  bitStampUrl= 'https://www.bitstamp.net/api/v2/ticker/btcusd/';
-
-  getBitstamp() : Observable<BitstampBTC>
+  bitStampUrlBtc= 'https://www.bitstamp.net/api/v2/ticker/btcusd/';
+  bitStampUrlEth ='https://www.bitstamp.net/api/v2/ticker/ethusd/';
+  bitStampUrlLtc ='https://www.bitstamp.net/api/v2/ticker/ltcusd/';
+  bitStampUrlXrp ='https://www.bitstamp.net/api/v2/ticker/xrpusd/';
+  bitStampUrlBch ='https://www.bitstamp.net/api/v2/ticker/bchusd/';
+  getBitstampBTC() : Observable<BitstampBTC>
   {
-    return this.http.get<BitstampBTC>(this.bitStampUrl);
+    return this.http.get<BitstampBTC>(this.bitStampUrlBtc);
   }
 
+  getBitstampETH() : Observable<BitstampBTC>
+  {
+    return this.http.get<BitstampBTC>(this.bitStampUrlEth)
+  }
+
+  getBitStampLtc(): Observable<BitstampBTC>
+  {
+    return this.http.get<BitstampBTC>(this.bitStampUrlLtc)
+  }
+
+  getBitStampXrp(): Observable<BitstampBTC>
+  {
+    return this.http.get<BitstampBTC>(this.bitStampUrlXrp);
+  }
+
+  getBitStampBch(): Observable<BitstampBTC>
+  {
+    return this.http.get<BitstampBTC>(this.bitStampUrlBch);
+  }
 }
