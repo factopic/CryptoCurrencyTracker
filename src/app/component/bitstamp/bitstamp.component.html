@@ -1,3 +1,27 @@
-<p>
-  bitstamp works!
-</p>
+
+<div class="table-wrapper">
+  <div class="row">
+    <div class=" col-sm-12">
+      <table>
+          <caption>Bitstamp</caption>
+          <tr class="heading">
+              <th> Coin </th>
+              <th> Price </th>
+              <th> Highest Bid </th>
+              <th> Lowest ask </th>
+              <th> High </th>
+              <th> Vol(24hr) </th>
+          </tr>
+
+          <tr>
+              <td>BTC (Rs)</td>
+              <td>{{ varBitStampBtc?.last}}</td>
+              <td>{{ varBitStampBtc?.bid}}</td>
+              <td>{{ varBitStampBtc?.ask}}</td>
+              <td>{{ varBitStampBtc?.high}}</td>
+              <td>{{ varBitStampBtc?.volume}}</td>
+          </tr>
+      </table>
+    </div>
+  </div>
+</div>
