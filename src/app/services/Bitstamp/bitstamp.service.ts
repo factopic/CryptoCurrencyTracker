@@ -14,12 +14,13 @@ export class BitstampService {
   bitStampUrlLtc ='https://www.bitstamp.net/api/v2/ticker/ltcusd/';
   bitStampUrlXrp ='https://www.bitstamp.net/api/v2/ticker/xrpusd/';
   bitStampUrlBch ='https://www.bitstamp.net/api/v2/ticker/bchusd/';
-  getBitstampBTC() : Observable<BitstampBTC>
+  
+  getBitstampBtc() : Observable<BitstampBTC>
   {
     return this.http.get<BitstampBTC>(this.bitStampUrlBtc);
   }
 
-  getBitstampETH() : Observable<BitstampBTC>
+  getBitstampEth() : Observable<BitstampBTC>
   {
     return this.http.get<BitstampBTC>(this.bitStampUrlEth)
   }

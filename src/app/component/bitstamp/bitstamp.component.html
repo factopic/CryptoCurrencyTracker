@@ -1,7 +1,8 @@
 
 <div class="table-wrapper">
   <div class="row">
-    <div class=" col-sm-12">
+
+    <div class="col-lg-12  col-sm-12">
       <table>
           <caption>Bitstamp</caption>
           <tr class="heading">
@@ -14,18 +15,48 @@
           </tr>
 
           <tr>
-              <td>BTC (Rs)</td>
+              <td>BTC (USD)</td>
               <td>{{ varBitStampBtc?.last}}</td>
               <td>{{ varBitStampBtc?.bid}}</td>
               <td>{{ varBitStampBtc?.ask}}</td>
               <td>{{ varBitStampBtc?.high}}</td>
-              <td>{{ varBitStampBtc?.volume}}</td>
+              <td>{{ varBitStampBtc?.volume | number : '1.1-2'}}</td>
           </tr>
+
+          <tr>
+            <td>ETH (USD)</td>
+            <td>{{ varBitStampEth?.last}}</td>
+            <td>{{ varBitStampEth?.bid}}</td>
+            <td>{{ varBitStampEth?.ask}}</td>
+            <td>{{ varBitStampEth?.high}}</td>
+            <td>{{ varBitStampEth?.volume | number : '1.1-2'}}</td>
+        </tr>
+        <tr>
+          <td>LTC (USD)</td>
+          <td>{{ varBitStampLtc?.last}}</td>
+          <td>{{ varBitStampLtc?.bid}}</td>
+          <td>{{ varBitStampLtc?.ask}}</td>
+          <td>{{ varBitStampLtc?.high}}</td>
+          <td>{{ varBitStampLtc?.volume | number : '1.1-2'}}</td>
+      </tr>
+      <tr>
+        <td>XRP (USD)</td>
+        <td>{{ varBitStampXrp?.last | number : '1.1-2' }}</td>
+        <td>{{ varBitStampXrp?.bid | number : '1.1-2'}}</td>
+        <td>{{ varBitStampXrp?.ask | number : '1.1-2'}}</td>
+        <td>{{ varBitStampXrp?.high | number : '1.1-2'}}</td>
+        <td>{{ varBitStampXrp?.volume | number : '1-2.0'}}</td>
+    </tr>
+    <tr>
+      <td>BCH (USD)</td>
+      <td>{{ varBitStampBch?.last}}</td>
+      <td>{{ varBitStampBch?.bid}}</td>
+      <td>{{ varBitStampBch?.ask}}</td>
+      <td>{{ varBitStampBch?.high}}</td>
+      <td>{{ varBitStampBch?.volume | number : '1.1-2'}}</td>
+  </tr>
+
       </table>
     </div>
   </div>
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> 17d3cc3ce263a9dcc8e2e8476b3d65357cd477c7
