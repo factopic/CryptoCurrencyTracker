@@ -3,7 +3,7 @@ export class BitstampBTC {
     last :  number; 
     timestamp :   number; 
     bid :   number; 
-    vwap :  137.18 
+    vwap :  number;
     volume :  number; 
     low :   number; 
     ask :   number;  
