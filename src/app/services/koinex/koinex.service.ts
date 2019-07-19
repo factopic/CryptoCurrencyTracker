@@ -9,7 +9,7 @@ import { KoinexClass } from '../../classes/koinex/koinex-class';
 export class KoinexService {
 
   constructor(private http: HttpClient) { }
-  koinexUrl= 'https://koinex.in/api/ticker';
+  koinexUrl= 'https://koinex.in/api/ticker';   /* The End */
 
 
   getKoinex() : Observable<KoinexClass>
